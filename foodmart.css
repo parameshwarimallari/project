@@ -1008,6 +1008,7 @@ flex-direction: column;
   /* margin-top: 2rem; */
   padding: 1  rem;
 }
+
 .item25{
   padding: 3rem;
   height: auto;
@@ -1023,6 +1024,9 @@ flex-direction: column;
   height: fit-content;
  overflow-y: hidden;
  padding: 2rem;
+}
+.item21 a{
+  width: 20rem;
 }
 .item22{
   padding: 0;
@@ -1185,6 +1189,15 @@ gap: 2rem;
 .item35 a,p{
   width: fit-content;
 }
+.item35{
+  width: 12rem;
+  padding: 1rem;
+}
+.item35 img{
+  width: 100%;
+  /* padding: 2rem; */
+  
+}
 
     
 }
@@ -1203,10 +1216,28 @@ gap: 2rem;
 display: none;
     }
 }
+.head05{
+  display: none;
+}
+.con{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.item21{
+  width: 15rem;
+}
+.item22{
+  width: 12rem;
+}
+.card1 .item22{
+  width: 11rem;
+}
 .card1{
   padding: 2rem;
   width: 100%;
   display: flex;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 .item71{
