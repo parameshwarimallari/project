@@ -23,6 +23,9 @@
   align-content: center;
   cursor: pointer;
 }
+.container3 ,.item5{
+  position: static;
+}
 
 .container2 img {
   width: 10rem;
@@ -916,7 +919,7 @@ color: #212529BF;
     align-items: center;
     gap: 1rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .con{
         display: block;
     }
@@ -943,9 +946,9 @@ color: #212529BF;
   #menu:checked +.header25{
     display: block;
 }
-.header25{
+/* .header25{
     display: none;
-}
+} */
 #menu{
     display: none;
 }
@@ -970,13 +973,20 @@ color: #212529BF;
 display: flex;
 width:100%;
 height: auto;
+
 flex-direction: column;
 
+}
+.container3 , .container4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .card{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 2rem;
 }
 .catag{
   display: flex;
@@ -994,9 +1004,9 @@ flex-direction: column;
 .head5{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 2rem;
-  padding: 2rem;
+  justify-content: space-between;
+  /* margin-top: 2rem; */
+  padding: 1  rem;
 }
 .item25{
   padding: 3rem;
@@ -1012,6 +1022,10 @@ flex-direction: column;
   width: fit-content;
   height: fit-content;
  overflow-y: hidden;
+ padding: 2rem;
+}
+.item22{
+  padding: 0;
 }
 .item27 img{
 
@@ -1026,10 +1040,21 @@ flex-direction: column;
   display: block;
   padding: 2rem;
 }
-.card1{
-  display: block;
-  padding: 2rem;
+.item23{
+  width: fit-content;
 }
+.card1{
+
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}.item31 p{
+  width: 12rem;
+}
+
 .item32 input{
 width: auto;
 }
@@ -1038,6 +1063,18 @@ width: auto;
 
 }.item38 img{
   width: 10rem;
+}.item71{
+  width: 100%;
+  display: flex;
+ flex-direction: column;
+}.item41{
+  width: fit-content;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.item34{
+  display: block;
 }
 .item37{
   display: block;
@@ -1072,7 +1109,7 @@ width: auto;
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
     .con{
         width: 100%;
         display: flex;
@@ -1093,20 +1130,71 @@ width: auto;
     .head04{
         display: none;
     }
-    #menu:checked +.header25{
+    #menu :checked .header25{
     display: block;
 }
-.header25{
+/* .header25{
     display: none;
-}
+} */
 #menu{
     display: none;
 }
 .head05 .bi{
 margin-left: 2rem;
 }
+.container{
+  display: block  ;
+}.item7{
+  position: static;
+  display: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container4{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.offercard , .offercard2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.card1{
+padding: 2rem;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+}.item34{
+ display: inline-block;
+}
+.item71{
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.item34{
+  width: 30%;
+}
+.item35 , .one{
+  width: fit-content;
+}
+.item35 a,p{
+  width: fit-content;
+}
+
     
 }
+
+
+
+
+
+
+
 @media screen and (min-width: 1024px) {
     #menu{
         display: none;
@@ -1115,7 +1203,16 @@ margin-left: 2rem;
 display: none;
     }
 }
-
+.card1{
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item71{
+  width: 100%;
+  display: flex;
+}
 
 .item25 img {
   width: 100%;
