@@ -1509,8 +1509,8 @@ display: none;
 }
 .item71{
   width: 100%;
-  display: flex;
-  gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .item25 img {
