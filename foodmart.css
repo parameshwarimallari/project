@@ -986,7 +986,9 @@ color: #212529BF;
     background-color: white;
     padding: 1rem;
   }
-
+.container4{
+  margin: 0.2rem;
+}
   /* Show menu when checkbox is checked */
  #menu:checked ~ .header25 {
  display: flex !important;
